@@ -1,0 +1,1098 @@
+[
+    {
+        "id": "3c97ef48e911eb44",
+        "type": "tab",
+        "label": "Chart",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "8664d9739a2993ed",
+        "type": "group",
+        "z": "3c97ef48e911eb44",
+        "name": "Bar & Line Chart",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "088fd0abd5f2fcfb",
+            "4a900ce8a0ecca5b",
+            "146eed9b3e0e0b2f",
+            "eeaaebb474415967",
+            "9d5097534c089f3f"
+        ],
+        "x": 34,
+        "y": 39,
+        "w": 652,
+        "h": 122
+    },
+    {
+        "id": "a6bdd27de16f3c60",
+        "type": "group",
+        "z": "3c97ef48e911eb44",
+        "name": "2 Bars 1 Line",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "fbb9e451e98214fa",
+            "21442491669a6591",
+            "e552d46183722993",
+            "5fa64f774ac2ffd6",
+            "81b866aefde43b25"
+        ],
+        "x": 34,
+        "y": 179,
+        "w": 652,
+        "h": 122
+    },
+    {
+        "id": "5e36f5adfdc4b4c8",
+        "type": "group",
+        "z": "3c97ef48e911eb44",
+        "name": "1 Bar 2 Lines",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "124288f61c97fa72",
+            "e9454fd1d0029ebf",
+            "e93c267f71e853ed",
+            "9fc8f29f868872b4",
+            "cea59b4eb5d34dcb"
+        ],
+        "x": 34,
+        "y": 319,
+        "w": 652,
+        "h": 122
+    },
+    {
+        "id": "608a47d10167aaae",
+        "type": "group",
+        "z": "3c97ef48e911eb44",
+        "name": "Stacked Bar & Line",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "8fab7058332abbe9",
+            "05efa7ce43ff6d26",
+            "fe8546dc9fed5d70",
+            "7fc9378ec390378f",
+            "1126f6fe950f534e"
+        ],
+        "x": 34,
+        "y": 459,
+        "w": 652,
+        "h": 122
+    },
+    {
+        "id": "958f2d59c8dc601d",
+        "type": "group",
+        "z": "3c97ef48e911eb44",
+        "name": "Stacked Bar & 4 Lines",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "fe01d6b25f50286c",
+            "8fe3beb9708bce20",
+            "4f3b557d331ddbb5",
+            "d4607729a25408c7",
+            "0bed4044e134863c"
+        ],
+        "x": 34,
+        "y": 599,
+        "w": 652,
+        "h": 122
+    },
+    {
+        "id": "b942ee0b765d9b30",
+        "type": "group",
+        "z": "3c97ef48e911eb44",
+        "name": "Stacked Bar, Bar & 4 Lines",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "d6be67311ac40afa",
+            "1bc3fcbeb76d77bd",
+            "7d9d932df4697f1d",
+            "1f3f109e537bd1d6",
+            "deac818a91625dc5"
+        ],
+        "x": 34,
+        "y": 739,
+        "w": 652,
+        "h": 122
+    },
+    {
+        "id": "f881b08788106a79",
+        "type": "ui-base",
+        "name": "My Dashboard",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 1,
+        "showDisconnectNotification": true
+    },
+    {
+        "id": "2955ea05bca53e2d",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094CE",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "c51d4d8192e87e7c",
+        "type": "ui-page",
+        "name": "Graph",
+        "ui": "f881b08788106a79",
+        "path": "/page1",
+        "icon": "chart-bar",
+        "layout": "grid",
+        "theme": "2955ea05bca53e2d",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "75a8aa8dd7d2d4b3",
+        "type": "ui-group",
+        "name": "Bar and Line Chart",
+        "page": "c51d4d8192e87e7c",
+        "width": "12",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "ef642390cefebcea",
+        "type": "ui-group",
+        "name": "2 Bars and Line Chart",
+        "page": "c51d4d8192e87e7c",
+        "width": "12",
+        "height": "1",
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "c32c7daf24766835",
+        "type": "ui-group",
+        "name": "1 Bar and 2 Lines Chart",
+        "page": "c51d4d8192e87e7c",
+        "width": "12",
+        "height": "1",
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "b1941c84d65d78ef",
+        "type": "ui-group",
+        "name": "Stacked Bar and Line Chart",
+        "page": "c51d4d8192e87e7c",
+        "width": "12",
+        "height": "1",
+        "order": 4,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "9bd2fa59cc3241c0",
+        "type": "ui-group",
+        "name": "Stacked Bar and Lines Chart",
+        "page": "c51d4d8192e87e7c",
+        "width": "12",
+        "height": "1",
+        "order": 5,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "ea6e33a263aec27e",
+        "type": "ui-group",
+        "name": "Stacked Bar-Bar-Lines Chart",
+        "page": "c51d4d8192e87e7c",
+        "width": "12",
+        "height": "1",
+        "order": 6,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "088fd0abd5f2fcfb",
+        "type": "function",
+        "z": "3c97ef48e911eb44",
+        "g": "8664d9739a2993ed",
+        "name": "function 1",
+        "func": "const data = [];\nfor (let i = 1; i <= 10; i++) {\n    const date = `2025-07-${i.toString().padStart(2, '0')}`;\n    const output = Math.floor(Math.random() * 100) + 50;\n    const target = Math.floor(Math.random() * 50) + 100;\n\n    data.push({\n        date,\n        output,\n        target\n    });\n}\n\nmsg.payload = data;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 80,
+        "wires": [
+            [
+                "4a900ce8a0ecca5b",
+                "146eed9b3e0e0b2f"
+            ]
+        ]
+    },
+    {
+        "id": "4a900ce8a0ecca5b",
+        "type": "ui-template",
+        "z": "3c97ef48e911eb44",
+        "g": "8664d9739a2993ed",
+        "group": "75a8aa8dd7d2d4b3",
+        "page": "",
+        "ui": "",
+        "name": "Bar & Line Chart",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <div class=\"chart-container\">\n    <canvas ref=\"canvas\"></canvas>\n  </div>\n</template>\n\n<script>\nexport default {\n  watch: {\n    msg(val) {\n      const data = val.payload;\n      if (!Array.isArray(data)) return;\n\n      const labels = data.map(d => d.date);\n      const outputs = data.map(d => d.output);\n      const targets = data.map(d => d.target);\n\n      const ctx = this.$refs.canvas.getContext('2d');\n      if (this.chart) this.chart.destroy();\n\n      this.chart = new Chart(ctx, {\n        type: 'bar',\n        data: {\n          labels,\n          datasets: [\n            {\n              label: 'Output',\n              data: outputs,\n              backgroundColor: 'rgba(54,162,235,0.6)',\n              borderColor: 'rgba(54,162,235,1)',\n              borderWidth: 1\n            },\n            {\n              label: 'Target',\n              data: targets,\n              type: 'line',\n              borderColor: 'rgba(255,99,132,1)',\n              backgroundColor: 'transparent',\n              borderWidth: 2,\n              fill: false\n            }\n          ]\n        },\n        options: {\n          responsive: true,\n          maintainAspectRatio: false,\n          scales: {\n            y: { beginAtZero: true, title: { display: true, text: 'Qty' } }\n          },\n          plugins: {\n            legend: { position: 'top' },\n            title: { display: true, text: 'Output vs Target per Date' }\n          }\n        }\n      });\n    }\n  },\n  unmounted() {\n    if (this.chart) this.chart.destroy();\n  }\n};\n</script>\n\n<style>\n.chart-container {\n  position: relative;\n  height: 400px;\n}\n</style>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 580,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "146eed9b3e0e0b2f",
+        "type": "debug",
+        "z": "3c97ef48e911eb44",
+        "g": "8664d9739a2993ed",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "eeaaebb474415967",
+        "type": "ui-button",
+        "z": "3c97ef48e911eb44",
+        "g": "8664d9739a2993ed",
+        "group": "75a8aa8dd7d2d4b3",
+        "name": "",
+        "label": "Generate Random Data",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 170,
+        "y": 80,
+        "wires": [
+            [
+                "088fd0abd5f2fcfb"
+            ]
+        ]
+    },
+    {
+        "id": "fbb9e451e98214fa",
+        "type": "ui-button",
+        "z": "3c97ef48e911eb44",
+        "g": "a6bdd27de16f3c60",
+        "group": "ef642390cefebcea",
+        "name": "",
+        "label": "Generate Random Data",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 170,
+        "y": 220,
+        "wires": [
+            [
+                "21442491669a6591"
+            ]
+        ]
+    },
+    {
+        "id": "21442491669a6591",
+        "type": "function",
+        "z": "3c97ef48e911eb44",
+        "g": "a6bdd27de16f3c60",
+        "name": "function 2",
+        "func": "const data = [];\nfor (let i = 1; i <= 10; i++) {\n    const date = `2025-07-${i.toString().padStart(2, '0')}`;\n    const output = Math.floor(Math.random() * 100) + 50;\n    const target = Math.floor(Math.random() * 50) + 100;\n    const oee = Math.floor((output / target) * 100); // Perkiraan OEE\n\n    data.push({\n        date,\n        output,\n        target,\n        oee: `${oee}%`\n    });\n}\nmsg.payload = data;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 220,
+        "wires": [
+            [
+                "e552d46183722993",
+                "5fa64f774ac2ffd6"
+            ]
+        ]
+    },
+    {
+        "id": "e552d46183722993",
+        "type": "ui-template",
+        "z": "3c97ef48e911eb44",
+        "g": "a6bdd27de16f3c60",
+        "group": "ef642390cefebcea",
+        "page": "",
+        "ui": "",
+        "name": "Bar & Line Chart",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <div class=\"chart-container\">\n    <canvas ref=\"canvas\"></canvas>\n  </div>\n</template>\n\n<script>\nexport default {\n  watch: {\n    msg(val) {\n      const data = val.payload;\n      if (!Array.isArray(data)) return;\n\n      const labels = data.map(d => d.date);\n      const outputs = data.map(d => d.output);\n      const targets = data.map(d => d.target);\n      const oees = data.map(d => parseFloat(d.oee.replace('%','')));\n\n      const ctx = this.$refs.canvas.getContext('2d');\n      if (this.chart) this.chart.destroy();\n\n      this.chart = new Chart(ctx, {\n        type: 'bar',\n        data: {\n          labels: labels,\n          datasets: [\n            {\n              label: 'Output',\n              data: outputs,\n              backgroundColor: 'rgba(54, 162, 235, 0.6)',\n              borderColor: 'rgba(54, 162, 235, 1)',\n              borderWidth: 1,\n              yAxisID: 'y'\n            },\n            {\n              label: 'Target',\n              data: targets,\n              backgroundColor: 'rgba(255, 206, 86, 0.6)',\n              borderColor: 'rgba(255, 206, 86, 1)',\n              borderWidth: 1,\n              yAxisID: 'y'\n            },\n            {\n              label: 'OEE (%)',\n              data: oees,\n              type: 'line',\n              borderColor: 'rgba(255, 99, 132, 1)',\n              backgroundColor: 'transparent',\n              borderWidth: 2,\n              fill: false,\n              yAxisID: 'y1'\n            }\n          ]\n        },\n        options: {\n          responsive: true,\n          maintainAspectRatio: false,\n          interaction: { mode: 'index', intersect: false },\n          scales: {\n            y: {\n              beginAtZero: true,\n              position: 'left',\n              title: { display: true, text: 'Qty' }\n            },\n            y1: {\n              beginAtZero: true,\n              //max: 100,\n              position: 'right',\n              title: { display: true, text: 'OEE (%)' },\n              grid: { drawOnChartArea: false }\n            }\n          },\n          plugins: {\n            legend: { position: 'top' },\n            title: { display: true, text: 'Output, Target, and OEE per Day' }\n          }\n        }\n      });\n    }\n  },\n  unmounted() {\n    if (this.chart) this.chart.destroy();\n  }\n};\n</script>\n\n<style>\n.chart-container {\n  position: relative;\n  height: 400px;\n}\n</style>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 580,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5fa64f774ac2ffd6",
+        "type": "debug",
+        "z": "3c97ef48e911eb44",
+        "g": "a6bdd27de16f3c60",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "124288f61c97fa72",
+        "type": "ui-button",
+        "z": "3c97ef48e911eb44",
+        "g": "5e36f5adfdc4b4c8",
+        "group": "c32c7daf24766835",
+        "name": "",
+        "label": "Generate Random Data",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 170,
+        "y": 360,
+        "wires": [
+            [
+                "e9454fd1d0029ebf"
+            ]
+        ]
+    },
+    {
+        "id": "e9454fd1d0029ebf",
+        "type": "function",
+        "z": "3c97ef48e911eb44",
+        "g": "5e36f5adfdc4b4c8",
+        "name": "function 3",
+        "func": "const data = [];\nfor (let i = 1; i <= 10; i++) {\n    const date = `2025-07-${i.toString().padStart(2, '0')}`;\n    const output = Math.floor(Math.random() * 100) + 50;\n    const target = Math.floor(Math.random() * 50) + 100;\n    const oee = Math.floor((output / target) * 100); // Perkiraan OEE\n\n    data.push({\n        date,\n        output,\n        target,\n        oee: `${oee}%`\n    });\n}\nmsg.payload = data;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 360,
+        "wires": [
+            [
+                "e93c267f71e853ed",
+                "9fc8f29f868872b4"
+            ]
+        ]
+    },
+    {
+        "id": "e93c267f71e853ed",
+        "type": "ui-template",
+        "z": "3c97ef48e911eb44",
+        "g": "5e36f5adfdc4b4c8",
+        "group": "c32c7daf24766835",
+        "page": "",
+        "ui": "",
+        "name": "Bar & Line Chart",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <div class=\"chart-container\">\n    <canvas ref=\"canvas\"></canvas>\n  </div>\n</template>\n\n<script>\nexport default {\n  watch: {\n    msg(val) {\n      const data = val.payload;\n      if (!Array.isArray(data)) return;\n\n      const labels = data.map(d => d.date);\n      const outputs = data.map(d => d.output);\n      const targets = data.map(d => d.target);\n      const oees = data.map(d => parseFloat(d.oee.replace('%', '')));\n\n      const ctx = this.$refs.canvas.getContext('2d');\n      if (this.chart) this.chart.destroy();\n\n      this.chart = new Chart(ctx, {\n        type: 'bar', // base type\n        data: {\n          labels: labels,\n          datasets: [\n            {\n              label: 'Output',\n              data: outputs,\n              backgroundColor: 'rgba(54, 162, 235, 0.6)',\n              borderColor: 'rgba(54, 162, 235, 1)',\n              borderWidth: 1,\n              yAxisID: 'y'\n            },\n            {\n              label: 'Target Output',\n              data: targets,\n              type: 'line',\n              borderColor: 'rgba(255, 206, 86, 1)',\n              backgroundColor: 'transparent',\n              borderWidth: 2,\n              fill: false,\n              yAxisID: 'y'\n            },\n            {\n              label: 'OEE (%)',\n              data: oees,\n              type: 'line',\n              borderColor: 'rgba(255, 99, 132, 1)',\n              backgroundColor: 'transparent',\n              borderWidth: 2,\n              fill: false,\n              yAxisID: 'y1'\n            }\n          ]\n        },\n        options: {\n          responsive: true,\n          maintainAspectRatio: false,\n          interaction: { mode: 'index', intersect: false },\n          scales: {\n            y: {\n              beginAtZero: true,\n              title: { display: true, text: 'Output Qty' }\n            },\n            y1: {\n              beginAtZero: true,\n              //max: 120,\n              position: 'right',\n              title: { display: true, text: 'OEE (%)' },\n              grid: { drawOnChartArea: false }\n            }\n          },\n          plugins: {\n            legend: { position: 'top' },\n            title: { display: true, text: 'Output, Target Output & OEE' }\n          }\n        }\n      });\n    }\n  },\n  unmounted() {\n    if (this.chart) this.chart.destroy();\n  }\n};\n</script>\n\n<style>\n.chart-container {\n  position: relative;\n  height: 400px;\n}\n</style>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 580,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9fc8f29f868872b4",
+        "type": "debug",
+        "z": "3c97ef48e911eb44",
+        "g": "5e36f5adfdc4b4c8",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "8fab7058332abbe9",
+        "type": "ui-button",
+        "z": "3c97ef48e911eb44",
+        "g": "608a47d10167aaae",
+        "group": "b1941c84d65d78ef",
+        "name": "",
+        "label": "Generate Random Data",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 170,
+        "y": 500,
+        "wires": [
+            [
+                "05efa7ce43ff6d26"
+            ]
+        ]
+    },
+    {
+        "id": "05efa7ce43ff6d26",
+        "type": "function",
+        "z": "3c97ef48e911eb44",
+        "g": "608a47d10167aaae",
+        "name": "function 4",
+        "func": "const data = [];\n\nfor (let i = 1; i <= 10; i++) {\n    const date = `2025-07-${i.toString().padStart(2, '0')}`;\n    const ok = Math.floor(Math.random() * 100) + 50;\n    const defect = Math.floor(Math.random() * 20); // ≤ 20\n    const total = ok + defect;\n    const oee = Math.round((ok / total) * 100); // Perkiraan OEE %\n\n    data.push({\n        date,\n        ok,\n        defect,\n        oee: `${oee}%`\n    });\n}\n\nmsg.payload = data;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 500,
+        "wires": [
+            [
+                "fe8546dc9fed5d70",
+                "7fc9378ec390378f"
+            ]
+        ]
+    },
+    {
+        "id": "fe8546dc9fed5d70",
+        "type": "ui-template",
+        "z": "3c97ef48e911eb44",
+        "g": "608a47d10167aaae",
+        "group": "b1941c84d65d78ef",
+        "page": "",
+        "ui": "",
+        "name": "Bar & Line Chart",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <div class=\"chart-container\">\n    <canvas ref=\"canvas\"></canvas>\n  </div>\n</template>\n\n<script>\nexport default {\n  watch: {\n    msg(val) {\n      const data = val.payload;\n      if (!Array.isArray(data)) return;\n\n      const labels = data.map(d => d.date);\n      const oks = data.map(d => d.ok);\n      const defects = data.map(d => d.defect);\n      const oees = data.map(d => parseFloat(d.oee.replace('%', '')));\n\n      const ctx = this.$refs.canvas.getContext('2d');\n      if (this.chart) this.chart.destroy();\n\n      this.chart = new Chart(ctx, {\n        type: 'bar',\n        data: {\n          labels: labels,\n          datasets: [\n            {\n              label: 'Qty OK',\n              data: oks,\n              backgroundColor: 'rgba(75, 192, 192, 0.6)',\n              borderColor: 'rgba(75, 192, 192, 1)',\n              borderWidth: 1,\n              stack: 'stack1',\n              yAxisID: 'y'\n            },\n            {\n              label: 'Qty Defect',\n              data: defects,\n              backgroundColor: 'rgba(255, 159, 64, 0.6)',\n              borderColor: 'rgba(255, 159, 64, 1)',\n              borderWidth: 1,\n              stack: 'stack1',\n              yAxisID: 'y'\n            },\n            {\n              label: 'OEE (%)',\n              data: oees,\n              type: 'line',\n              borderColor: 'rgba(255, 99, 132, 1)',\n              backgroundColor: 'transparent',\n              borderWidth: 2,\n              fill: false,\n              yAxisID: 'y1'\n            }\n          ]\n        },\n        options: {\n          responsive: true,\n          maintainAspectRatio: false,\n          interaction: { mode: 'index', intersect: false },\n          scales: {\n            y: {\n              beginAtZero: true,\n              stacked: true,\n              title: { display: true, text: 'Qty' }\n            },\n            y1: {\n              beginAtZero: true,\n              max: 120,\n              position: 'right',\n              title: { display: true, text: 'OEE (%)' },\n              grid: { drawOnChartArea: false }\n            }\n          },\n          plugins: {\n            legend: { position: 'top' },\n            title: { display: true, text: 'Qty OK vs Defect and OEE' }\n          }\n        }\n      });\n    }\n  },\n  unmounted() {\n    if (this.chart) this.chart.destroy();\n  }\n};\n</script>\n\n<style>\n.chart-container {\n  position: relative;\n  height: 400px;\n}\n</style>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 580,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7fc9378ec390378f",
+        "type": "debug",
+        "z": "3c97ef48e911eb44",
+        "g": "608a47d10167aaae",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "fe01d6b25f50286c",
+        "type": "ui-button",
+        "z": "3c97ef48e911eb44",
+        "g": "958f2d59c8dc601d",
+        "group": "9bd2fa59cc3241c0",
+        "name": "",
+        "label": "Generate Random Data",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 170,
+        "y": 640,
+        "wires": [
+            [
+                "8fe3beb9708bce20"
+            ]
+        ]
+    },
+    {
+        "id": "8fe3beb9708bce20",
+        "type": "function",
+        "z": "3c97ef48e911eb44",
+        "g": "958f2d59c8dc601d",
+        "name": "function 5",
+        "func": "const data = [];\n\nfor (let i = 1; i <= 10; i++) {\n    const date = `2025-07-${i.toString().padStart(2, '0')}`;\n    const ok = Math.floor(Math.random() * 100) + 50;\n    const defect = Math.floor(Math.random() * 20);\n    const total = ok + defect;\n\n    const availability = Math.floor(Math.random() * 11) + 90;   // 90–100%\n    const performance = Math.floor(Math.random() * 11) + 85;    // 85–95%\n    const quality = Math.round((ok / total) * 100);             // OK rate\n\n    const oee = Math.round((availability / 100) * (performance / 100) * (quality / 100) * 100);\n\n    data.push({\n        date,\n        ok,\n        defect,\n        availability: `${availability}%`,\n        performance: `${performance}%`,\n        quality: `${quality}%`,\n        oee: `${oee}%`\n    });\n}\n\nmsg.payload = data;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 640,
+        "wires": [
+            [
+                "4f3b557d331ddbb5",
+                "d4607729a25408c7"
+            ]
+        ]
+    },
+    {
+        "id": "4f3b557d331ddbb5",
+        "type": "ui-template",
+        "z": "3c97ef48e911eb44",
+        "g": "958f2d59c8dc601d",
+        "group": "9bd2fa59cc3241c0",
+        "page": "",
+        "ui": "",
+        "name": "Bar & Line Chart",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <div class=\"chart-container\">\n    <canvas ref=\"canvas\"></canvas>\n  </div>\n</template>\n\n<script>\nexport default {\n  watch: {\n    msg(val) {\n      const data = val.payload;\n      if (!Array.isArray(data)) return;\n\n      const labels = data.map(d => d.date);\n      const oks = data.map(d => d.ok);\n      const defects = data.map(d => d.defect);\n      const oees = data.map(d => parseFloat(d.oee));\n      const avails = data.map(d => parseFloat(d.availability));\n      const perfs = data.map(d => parseFloat(d.performance));\n      const quals = data.map(d => parseFloat(d.quality));\n\n      const ctx = this.$refs.canvas.getContext('2d');\n      if (this.chart) this.chart.destroy();\n\n      this.chart = new Chart(ctx, {\n        type: 'bar',\n        data: {\n          labels: labels,\n          datasets: [\n            {\n              label: 'Qty OK',\n              data: oks,\n              backgroundColor: 'rgba(75, 192, 192, 0.6)',\n              borderColor: 'rgba(75, 192, 192, 1)',\n              borderWidth: 1,\n              stack: 'stack1',\n              yAxisID: 'y'\n            },\n            {\n              label: 'Qty Defect',\n              data: defects,\n              backgroundColor: 'rgba(255, 159, 64, 0.6)',\n              borderColor: 'rgba(255, 159, 64, 1)',\n              borderWidth: 1,\n              stack: 'stack1',\n              yAxisID: 'y'\n            },\n            {\n              label: 'OEE (%)',\n              data: oees,\n              type: 'line',\n              borderColor: 'rgba(255, 99, 132, 1)',\n              backgroundColor: 'transparent',\n              borderWidth: 2,\n              fill: false,\n              yAxisID: 'y1'\n            },\n            {\n              label: 'Availability (%)',\n              data: avails,\n              type: 'line',\n              borderColor: 'rgba(153, 102, 255, 1)',\n              backgroundColor: 'transparent',\n              borderWidth: 2,\n              fill: false,\n              borderDash: [5, 5],\n              yAxisID: 'y1'\n            },\n            {\n              label: 'Performance (%)',\n              data: perfs,\n              type: 'line',\n              borderColor: 'rgba(255, 206, 86, 1)',\n              backgroundColor: 'transparent',\n              borderWidth: 2,\n              fill: false,\n              borderDash: [5, 5],\n              yAxisID: 'y1'\n            },\n            {\n              label: 'Quality (%)',\n              data: quals,\n              type: 'line',\n              borderColor: 'rgba(54, 162, 235, 1)',\n              backgroundColor: 'transparent',\n              borderWidth: 2,\n              fill: false,\n              borderDash: [5, 5],\n              yAxisID: 'y1'\n            }\n          ]\n        },\n        options: {\n          responsive: true,\n          maintainAspectRatio: false,\n          interaction: { mode: 'index', intersect: false },\n          scales: {\n            y: {\n              beginAtZero: true,\n              stacked: true,\n              title: { display: true, text: 'Qty' }\n            },\n            y1: {\n              beginAtZero: true,\n              max: 120,\n              position: 'right',\n              title: { display: true, text: 'Percentage (%)' },\n              grid: { drawOnChartArea: false }\n            }\n          },\n          plugins: {\n            legend: { position: 'top' },\n            title: { display: true, text: 'OEE & Factors with Qty OK / Defect' }\n          }\n        }\n      });\n    }\n  },\n  unmounted() {\n    if (this.chart) this.chart.destroy();\n  }\n};\n</script>\n\n<style>\n.chart-container {\n  position: relative;\n  height: 420px;\n}\n</style>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 580,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d4607729a25408c7",
+        "type": "debug",
+        "z": "3c97ef48e911eb44",
+        "g": "958f2d59c8dc601d",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "d6be67311ac40afa",
+        "type": "ui-button",
+        "z": "3c97ef48e911eb44",
+        "g": "b942ee0b765d9b30",
+        "group": "ea6e33a263aec27e",
+        "name": "",
+        "label": "Generate Random Data",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 170,
+        "y": 780,
+        "wires": [
+            [
+                "1bc3fcbeb76d77bd"
+            ]
+        ]
+    },
+    {
+        "id": "1bc3fcbeb76d77bd",
+        "type": "function",
+        "z": "3c97ef48e911eb44",
+        "g": "b942ee0b765d9b30",
+        "name": "function 6",
+        "func": "const data = [];\n\nfor (let i = 1; i <= 10; i++) {\n    const date = `2025-07-${i.toString().padStart(2, '0')}`;\n    const ok = Math.floor(Math.random() * 100) + 50;\n    const defect = Math.floor(Math.random() * 20);\n    const total = ok + defect;\n    const target = total + Math.floor(Math.random() * 20) + 10; // target sedikit lebih tinggi dari total actual\n\n    const availability = Math.floor(Math.random() * 11) + 90;   // 90–100%\n    const performance = Math.floor(Math.random() * 11) + 85;    // 85–95%\n    const quality = Math.round((ok / total) * 100);             // OK rate\n\n    const oee = Math.round((availability / 100) * (performance / 100) * (quality / 100) * 100);\n\n    data.push({\n        date,\n        ok,\n        defect,\n        target,\n        availability: `${availability}%`,\n        performance: `${performance}%`,\n        quality: `${quality}%`,\n        oee: `${oee}%`\n    });\n}\n\nmsg.payload = data;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 780,
+        "wires": [
+            [
+                "7d9d932df4697f1d",
+                "1f3f109e537bd1d6"
+            ]
+        ]
+    },
+    {
+        "id": "7d9d932df4697f1d",
+        "type": "ui-template",
+        "z": "3c97ef48e911eb44",
+        "g": "b942ee0b765d9b30",
+        "group": "ea6e33a263aec27e",
+        "page": "",
+        "ui": "",
+        "name": "Bar & Line Chart",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <div class=\"chart-container\">\n    <canvas ref=\"canvas\"></canvas>\n  </div>\n</template>\n\n<script>\nexport default {\n  watch: {\n    msg(val) {\n      const data = val.payload;\n      if (!Array.isArray(data)) return;\n\n      const labels = data.map(d => d.date);\n      const oks = data.map(d => d.ok);\n      const defects = data.map(d => d.defect);\n      const targets = data.map(d => d.target);\n      const oees = data.map(d => parseFloat(d.oee));\n      const avails = data.map(d => parseFloat(d.availability));\n      const perfs = data.map(d => parseFloat(d.performance));\n      const quals = data.map(d => parseFloat(d.quality));\n\n      const ctx = this.$refs.canvas.getContext('2d');\n      if (this.chart) this.chart.destroy();\n\n      this.chart = new Chart(ctx, {\n        type: 'bar',\n        data: {\n          labels,\n          datasets: [\n            // STAAAACKED BARS\n            {\n              label: 'Qty OK',\n              data: oks,\n              backgroundColor: 'rgba(75, 192, 192, 0.6)',\n              borderColor: 'rgba(75, 192, 192, 1)',\n              borderWidth: 1,\n              stack: 'stack1',\n              yAxisID: 'y'\n            },\n            {\n              label: 'Qty Defect',\n              data: defects,\n              backgroundColor: 'rgba(255, 159, 64, 0.6)',\n              borderColor: 'rgba(255, 159, 64, 1)',\n              borderWidth: 1,\n              stack: 'stack1',\n              yAxisID: 'y'\n            },\n            // TARGET BAR (NOT STACKED)\n            {\n              label: 'Target Output',\n              data: targets,\n              backgroundColor: 'rgba(100, 100, 100, 0.4)',\n              borderColor: 'rgba(100, 100, 100, 1)',\n              borderWidth: 1,\n              stack: null,\n              yAxisID: 'y'\n            },\n            // LINE CHARTS\n            {\n              label: 'OEE (%)',\n              data: oees,\n              type: 'line',\n              borderColor: 'rgba(255, 99, 132, 1)',\n              backgroundColor: 'transparent',\n              borderWidth: 2,\n              fill: false,\n              yAxisID: 'y1'\n            },\n            {\n              label: 'Availability (%)',\n              data: avails,\n              type: 'line',\n              borderColor: 'rgba(153, 102, 255, 1)',\n              backgroundColor: 'transparent',\n              borderWidth: 2,\n              fill: false,\n              borderDash: [5, 5],\n              yAxisID: 'y1'\n            },\n            {\n              label: 'Performance (%)',\n              data: perfs,\n              type: 'line',\n              borderColor: 'rgba(255, 206, 86, 1)',\n              backgroundColor: 'transparent',\n              borderWidth: 2,\n              fill: false,\n              borderDash: [5, 5],\n              yAxisID: 'y1'\n            },\n            {\n              label: 'Quality (%)',\n              data: quals,\n              type: 'line',\n              borderColor: 'rgba(54, 162, 235, 1)',\n              backgroundColor: 'transparent',\n              borderWidth: 2,\n              fill: false,\n              borderDash: [5, 5],\n              yAxisID: 'y1'\n            }\n          ]\n        },\n        options: {\n          responsive: true,\n          maintainAspectRatio: false,\n          interaction: { mode: 'index', intersect: false },\n          scales: {\n            y: {\n              beginAtZero: true,\n              stacked: true,\n              title: { display: true, text: 'Qty' }\n            },\n            y1: {\n              beginAtZero: true,\n              max: 120,\n              position: 'right',\n              title: { display: true, text: 'Percentage (%)' },\n              grid: { drawOnChartArea: false }\n            }\n          },\n          plugins: {\n            legend: { position: 'top' },\n            title: { display: true, text: 'Output, Target & OEE Components' }\n          }\n        }\n      });\n    }\n  },\n  unmounted() {\n    if (this.chart) this.chart.destroy();\n  }\n};\n</script>\n\n<style>\n.chart-container {\n  position: relative;\n  height: 420px;\n}\n</style>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 580,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1f3f109e537bd1d6",
+        "type": "debug",
+        "z": "3c97ef48e911eb44",
+        "g": "b942ee0b765d9b30",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "9d5097534c089f3f",
+        "type": "inject",
+        "z": "3c97ef48e911eb44",
+        "g": "8664d9739a2993ed",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[]",
+        "payloadType": "json",
+        "x": 390,
+        "y": 120,
+        "wires": [
+            [
+                "4a900ce8a0ecca5b"
+            ]
+        ]
+    },
+    {
+        "id": "81b866aefde43b25",
+        "type": "inject",
+        "z": "3c97ef48e911eb44",
+        "g": "a6bdd27de16f3c60",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[]",
+        "payloadType": "json",
+        "x": 390,
+        "y": 260,
+        "wires": [
+            [
+                "e552d46183722993"
+            ]
+        ]
+    },
+    {
+        "id": "cea59b4eb5d34dcb",
+        "type": "inject",
+        "z": "3c97ef48e911eb44",
+        "g": "5e36f5adfdc4b4c8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[]",
+        "payloadType": "json",
+        "x": 390,
+        "y": 400,
+        "wires": [
+            [
+                "e93c267f71e853ed"
+            ]
+        ]
+    },
+    {
+        "id": "1126f6fe950f534e",
+        "type": "inject",
+        "z": "3c97ef48e911eb44",
+        "g": "608a47d10167aaae",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[]",
+        "payloadType": "json",
+        "x": 390,
+        "y": 540,
+        "wires": [
+            [
+                "fe8546dc9fed5d70"
+            ]
+        ]
+    },
+    {
+        "id": "0bed4044e134863c",
+        "type": "inject",
+        "z": "3c97ef48e911eb44",
+        "g": "958f2d59c8dc601d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[]",
+        "payloadType": "json",
+        "x": 390,
+        "y": 680,
+        "wires": [
+            [
+                "4f3b557d331ddbb5"
+            ]
+        ]
+    },
+    {
+        "id": "deac818a91625dc5",
+        "type": "inject",
+        "z": "3c97ef48e911eb44",
+        "g": "b942ee0b765d9b30",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[]",
+        "payloadType": "json",
+        "x": 390,
+        "y": 820,
+        "wires": [
+            [
+                "7d9d932df4697f1d"
+            ]
+        ]
+    }
+]
